@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Inter:wght@400;600&display=swap');
+
+.title_element {
+  text-align: center;
+  font-family: 'Boogaloo', sans-serif;
+  font-size: 48px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.submit_text {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin: 0px;
+  text-align: center;
+  font-family: 'Boogaloo', sans-serif;
+  font-size: 24px;
+}
+
+#tiktok_name {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin: 0px;
+  text-align: center;
+  color: rgba(238,29,82, 0.9);
+}
+
+.video_name {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.continue_button{
+  display: flex;
+  justify-content: center;
+  margin-top: 55px;
+}
+
+button {
+  border-style: none;
+  border-radius: 12px;
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+  background-color: rgba(238, 29, 82, 0.9);
+  cursor: pointer;
+  
+  font-family:'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  button {
+    font-size: 16px;
+  }
+}

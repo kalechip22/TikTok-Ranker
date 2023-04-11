@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --magenta : rgba(238, 29, 82, 0.9);
+  --cyan : rgb(105, 201, 208);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+/*     justify-content: space-around; */
+    align-items: center;
+    width: 100vw;
+    /*height: 100vh;*/
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+div.headerRight {
+  flex: 4;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+div.headerLeft {
+  flex: 4;
+  display: show;
+}
+
+div.headerCenter {
+  flex: 5;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+header.redirect {
+    justify-content: center;
+}
+
+h1 {
+    font-size: 48px;
+    font-family: "Boogaloo";
+}
+
+/* Slightly altered default h2 tag. */
+h2 {
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+}
+
+span {
+    color: var(--magenta);
+}
+
+#addNew {
+    border-radius: 10px;
+    width: 170px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    color: whitesmoke;
+    background-color: var(--magenta);
+    cursor: pointer;
+    transition: 0.3s ease;
+    border: none;
+    margin: 10px;
+}
+
+#continue {
+    border-radius: 10px;
+    width: 170px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    color: whitesmoke;
+    background-color: rgba(238, 29, 82, 0.8);
+    cursor: pointer;
+    transition: 0.3s ease;
+    border: none;
+    margin: 10px;
+    margin-top: 50px;
+}
+
+#addNew:hover {
+    background-color: var(--cyan);
+}
+
+#continue:hover {
+    background-color: rgba(105, 201, 208, 0.2);
+}
+
+p {
+    display: flex;
+    align-items: center;
+    color: black;
+    width: 300px;
+    font-weight: 400;
+    font-size: 16px;
+    height: 35px;
+    margin-right: 30px;
+    padding: 3px 13px;
+    font-family: 'Inter', sans-serif;
+    border-radius: 12px;
+    border: 1px solid lightgray; /* Adding transparent border to avoid weird movement whenever border is added. */
+    border-style: dashed;
+}
+
+
+label {
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+
+.submit {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.formfields {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.X {
+  font-size: 64px;
+  font-family: "Boogaloo";
+  color: var(--magenta);
+  margin-right: 40px;
+  background-color: white;
+  cursor: pointer;
+}
+
+@media screen and (max-width:900px) {
+
+  .X {
+    font-size: 60px;
+    margin-right: 0px;
+  }
+
+  h2 {
+    margin-bottom: 20px;
+  }
+
+  #continue {
+    border-radius: 15px;
+    height: 65px;
+    width: 200px;
+    margin-top: 10px;
+  }
+
+  #addNew {
+    border-radius: 15px;
+    height: 65px;
+    width: 200px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-around;
+    
+  }
+
+  div.headerRight {
+    flex: 1;
+  justify-content: flex-start;
+}
+
+.formfields {
+    display: flex;
+    flex-direction: column;
+}
+  
+div.headerLeft {
+  flex: 1;
+  display: show;
+}
+
+div.headerCenter {
+flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    /*height: 100vh;*/
+    margin: 0;
+}
+  
+
+    #app {
+        width: 320px;
+    }
+  p{
+    width: 400px;
+  }
+}
+
+@media screen and (max-width:700px) {
+
+  h1 {
+    font-size: 32px;
+  }
+
+  #continue {
+    font-size: 16px;   
+    border-radius: 20px;
+    width: 130px;
+    height: 50px;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+    #addNew {
+    font-size: 16px;   
+    border-radius: 20px;
+    width: 130px;
+    height: 50px;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  
+  .X {
+    font-size: 44px;
+    margin-right: 0px;
+  }
+
+  h2 {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  div.headerRight {
+  margin-right: 25px;
+  margin-top: 10px;
+  width: 50%;
+  justify-content: flex-end;
+}
+
+
+div.headerLeft {
+  width: 0px;
+  margin-top: 10px;
+  display: none;
+}
+
+div.headerCenter {
+  margin-left: 35px;
+  margin-top: 10px;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+  label {
+    width: 5%;
+  }
+  p {
+    width: 200px;
+    height: 30px;
+    padding: 0px 15px;
+  }
+
+  .formfields {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+  
+    #app {
+        width: 350px;
+        font-size: 14px;
+    }
+
+
+    .submit {
+      margin: 0;
+    }
+}

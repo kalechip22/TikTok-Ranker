@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+.gameHeader {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 90%;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.videoContainer {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nickname {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  color: white;
+  font-size: 24px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}
+
+.videoControls {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.reload,.heart {
+  margin: 20px;
+}
+
+.reload:hover, .heart:hover {
+  cursor: pointer;
+}
+
+#heart1, #heart2 {
+  color: rgb(180,180,180);
+}
+
+#newHeart1, #newHeart2 {
+  display: none;
+  color: rgb(238,29,82);
+} 
+
+footer {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  margin-right: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+
+@media screen and (max-width:900px) {
+
+  main {
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  div.headerRight {
+    width: 30%;
+    justify-content: center;
+  }
+
+  .nickname {
+    font-size: 18px;
+  }
+
+  footer {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }  
+}
+

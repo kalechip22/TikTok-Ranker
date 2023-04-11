@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Inter:wght@400;600&display=swap');
+
+.header_box {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 65px;
+}
+
+.title_element {
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Boogaloo', sans-serif;
+  font-size: 48px;
+}
+
+.video_button {
+  position: absolute;
+  margin-right: 55px;
+  top: 7px;
+  right: 0px;
+}
+
+.continue_button{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+button {
+  border-style: none;
+  border-radius: 12px;
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+  background-color: rgba(238, 29, 82, 0.9);
+  cursor: pointer;
+  
+  font-family:'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-flow: column;
+  align-content: center;
+  margin: 0 auto;
+  border-radius: 25px;
+  height: 450px;
+  max-width: 470px;
+  background-image: linear-gradient(135deg, rgba(238,29,82, 0.9), rgb(105, 201, 208));
+}
+
+.head_text {
+  padding-top: 40px;
+  text-align: center;
+  font-family:'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: white;
+}
+
+.main_text {
+  margin-top: 25px;
+  margin-bottom: 4px;
+  font-family:'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
+}
+
+.input_box{
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 0 auto;
+}
+
+input{
+  border-style: none;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding-left: 15px;
+  height: 40px;
+  width: 340px;
+}
+
+::placeholder {
+  font-family:'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+}
+
+.continue_button {
+  margin-top: 40px;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+  .header_box {
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .video_button {
+    position: static;
+    margin-right: auto;
+    top: 0px;
+    right: 0px;
+  }
+
+  .main_box {
+    margin-left: 22px;
+    margin-right: 22px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .header_box {
+    margin-top: 35px;
+  }
+  
+  .title_element {
+    font-size: 32px;
+  }
+
+  button {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    
+  }
+
+  .head_text {
+    font-size: 20px;
+  }
+  
+  input {
+    width: 280px;
+  }
+}
