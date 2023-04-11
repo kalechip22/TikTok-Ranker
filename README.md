@@ -1,1 +1,3 @@
-# TikTok-Ranker
+# TikTok Ranker
+
+## Description
