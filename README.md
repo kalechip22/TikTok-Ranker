@@ -1,33 +1,12 @@
 # TikTok Ranker
-<style>
-  .column {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
-  }
 
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  } 
-</style>
+<p float="left">
+  <img src="cover_img/tiktokpet1.png" alt="tiktokpet1" width="100" />
+  <img src="cover_img/tiktokpet2.png" alt="tiktokpet2" width="100" /> 
+  <img src="cover_img/tiktokpet3.png" alt="tiktokpet3" width="100" />
+</p>
 
-<div class="row">
-  <div class="column">
-    <img src="cover_img/tiktokpet1.png" alt="tiktokpet1" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="cover_img/tiktokpet2.png" alt="tiktokpet2" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="cover_img/tiktokpet3.png" alt="tiktokpet3" style="width:100%">
-  </div>
-</div>
-
-<div class="row">
-  <img src="cover_img/tiktokpet4.png" alt="tiktokpet4" style="width:100%">
-</div>
+<img src="cover_img/tiktokpet4.png" alt="tiktokpet4" width=400">
 
 <!-- <img src="cover_img/tiktokpet1.png" alt="tiktokpet1" width="300"/>
 <img src="cover_img/tiktokpet2.png" alt="tiktokpet2" width="300"/>
