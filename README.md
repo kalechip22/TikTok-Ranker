@@ -10,10 +10,10 @@ A game where a user sees a pair of TikTok videos, and chooses which one is bette
 
 ## Website Desktop Preview
 <p float="left">
-  <img src="cover_img/tiktokpet1.png" alt="tiktokpet1" width="300" />
-  <img src="cover_img/tiktokpet2.png" alt="tiktokpet2" width="300" /> 
-  <img src="cover_img/tiktokpet3.png" alt="tiktokpet3" width="300" />
-  <img src="cover_img/tiktokpet4.png" alt="tiktokpet4" width="500" />
+  <img src="cover_img/tiktokpet1.png" alt="tiktokpet1" width="400" />
+  <img src="cover_img/tiktokpet2.png" alt="tiktokpet2" width="400" /> 
+  <img src="cover_img/tiktokpet3.png" alt="tiktokpet3" width="400" />
+  <img src="cover_img/tiktokpet4.png" alt="tiktokpet4" width="700" />
 </p>
 
 <!-- <img src="cover_img/tiktokpet1.png" alt="tiktokpet1" width="300"/>
